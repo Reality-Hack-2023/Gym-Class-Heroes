@@ -32,7 +32,7 @@ public class Recording : MonoBehaviour
 
     public void StartRecording()
     {
-        audioSource.clip = Microphone.Start(microphone, false, 10);
+        audioSource.clip = Microphone.Start(microphone, false, 10, 44100);
 
     }
 
