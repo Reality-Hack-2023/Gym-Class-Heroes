@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PassthroughMemories.unity
+- path: Assets/Scenes/PassthroughMemories_JAM.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

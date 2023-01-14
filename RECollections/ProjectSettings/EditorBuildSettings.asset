@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/DemoScene.unity
+    path: Assets/Scenes/Archive/HandGrabTEst.unity
     guid: 59527676ef28f574ead4263faed737af
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b18bb580d394a434d844ebce8029ad4e, type: 2}
