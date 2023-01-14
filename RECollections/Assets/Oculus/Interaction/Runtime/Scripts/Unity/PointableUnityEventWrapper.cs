@@ -63,6 +63,7 @@ namespace Oculus.Interaction
         public UnityEvent WhenMove => _whenMove;
         public UnityEvent WhenCancel => _whenCancel;
 
+
         protected bool _started = false;
 
         protected virtual void Awake()
