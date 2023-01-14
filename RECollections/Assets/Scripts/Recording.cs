@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class Recording : MonoBehaviour
 {
+    // this audiosource
     [SerializeField] private AudioSource audioSource;
-    private string microphone = null;
+
+    // CACHED REFERENCES //
+    MemoryAudioManager memoryAudioManager;
+    // caching the mic from the audio manager
+    private string mic = null;
 
     // Start is called before the first frame update
     void Start()
     {
-        // Get list of Microphone devices and print the names to the log
-        foreach (var device in Microphone.devices)
-        {
-            // check if the microphone is the oculus' microphone
-            if (device == "Headset Microphone (Oculus Virtual Audio Device)")
-            {
-                // if it is assign it to the microphone variable
-                microphone = device;
-                // log to console
-                Debug.Log("The Oculus Microphone is named: " + microphone);
-            }
-        }
+        // get the audioSource
+        audioSource = GetComponent<AudioSource>();
+        // get the audio manager object
+        memoryAudioManager = FindObjectOfType<MemoryAudioManager>();
+        // get the oculus microphone from the audio manager
+        mic = memoryAudioManager.microphone;
     }
 
     // Update is called once per frame
@@ -32,14 +31,17 @@ public class Recording : MonoBehaviour
 
     public void StartRecording()
     {
-        audioSource.clip = Microphone.Start(microphone, false, 10, 44100);
-
+        // if there is no recording
+        if audioSource.clip != null)
+        {
+            audioSource.clip = Microphone.Start(mic, false, 10, 44100);
+        }
+        audioSource.clip = Microphone.Start(mic, false, 10, 44100);
     }
 
     public void StopRecording()
     {
-        Microphone.End(microphone);
-
+        Microphone.End(mic);
         audioSource.Play();
     }
 }
