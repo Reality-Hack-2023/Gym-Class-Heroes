@@ -18,6 +18,7 @@ public class Recording : MonoBehaviour
     public CountdownTimer timer;
 
     Coroutine coroutine;
+    public Animator anim;
 
 
     // this audiosource
@@ -97,6 +98,7 @@ public class Recording : MonoBehaviour
         {
             rend.material = recordedMat;
             StartCoroutine(FireAfterDelay());
+            anim.SetBool("isIdling", true);
             audioSource.Stop();
         }
         isRecording = false;

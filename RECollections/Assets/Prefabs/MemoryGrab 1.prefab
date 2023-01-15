@@ -2559,6 +2559,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3467411651482174184}
     m_Modifications:
     - target: {fileID: 3467411651378545307, guid: 4c10bc37c0e8b774387330f749138159, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 6676791883957798026}
+    - target: {fileID: 3467411651378545307, guid: 4c10bc37c0e8b774387330f749138159, type: 3}
       propertyPath: rend
       value: 
       objectReference: {fileID: 1931255595324037777}
@@ -3232,3 +3236,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.05745447
   m_Center: {x: 0, y: -0.034871887, z: -0.04965143}
+--- !u!95 &6676791883957798026
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670398099635427952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a7f90fd7641585143b5f8879a25cbec4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

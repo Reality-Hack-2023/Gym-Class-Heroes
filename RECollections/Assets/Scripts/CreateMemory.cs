@@ -29,11 +29,6 @@ public class CreateMemory : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        Create();
-    }
-
     public void Create()
     {
         StartCoroutine(CreateRoutine());
