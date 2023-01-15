@@ -124,6 +124,8 @@
 -define:UNITY_INPUT_SYSTEM_ENABLE_UI
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/DOTween/DOTween.dll"
+-r:"Assets/DOTween/Editor/DOTweenEditor.dll"
 -r:"J:/Applications/2021.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"J:/Applications/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"J:/Applications/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
