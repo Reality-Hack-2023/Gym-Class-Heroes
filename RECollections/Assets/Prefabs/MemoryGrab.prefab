@@ -2559,6 +2559,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3467411651482174184}
     m_Modifications:
     - target: {fileID: 3467411651378545307, guid: 4c10bc37c0e8b774387330f749138159, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 7684015110657255180}
+    - target: {fileID: 3467411651378545307, guid: 4c10bc37c0e8b774387330f749138159, type: 3}
       propertyPath: rend
       value: 
       objectReference: {fileID: 2373781036320714821}
@@ -3208,6 +3212,41 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.057518855
   m_Center: {x: -0.10202432, y: -0.06775825, z: 0.10701311}
+--- !u!95 &7684015110657255180
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210953353333510366}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6f542fed3231fe43b8b2f3d91f6a1e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!111 &3613170494247275672
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210953353333510366}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: acf906be866c15242b7a806bf8317147, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &8023623921291709028 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eb760ae24c11c4548887dae33c6808a5, type: 3}
