@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="view_container" style="height: 772px;">
+        <ui:VisualElement name="welcome_header" style="position: absolute; width: 1526px; height: 154px; align-items: flex-start; justify-content: center; margin-right: 0; margin-left: 5%;">
+            <ui:Label text="       RECollections" display-tooltip-when-elided="true" name="title" style="font-size: 40%; -unity-text-align: upper-left; -unity-font: resource(&apos;Fonts &amp; Materials/RubikGlitch-Regular&apos;); -unity-font-definition: none; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);" />
+            <ui:Label text="A place for collective memories" display-tooltip-when-elided="true" name="tagline" style="-unity-font-definition: none; -unity-font: resource(&apos;Fonts &amp; Materials/RobotoMono-VariableFont_wght&apos;); font-size: 20%; position: relative; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);" />
+            <ui:VisualElement style="background-image: url(&apos;project://database/Assets/ui/Ellipse%201.png?fileID=2800000&amp;guid=5ff62fe50e2874f569ae2d103208e993&amp;type=3#Ellipse 1&apos;); width: 20px; height: 20px; position: absolute; top: 53px; left: 24px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="onboarding_container" style="height: 294px; position: absolute; width: 1376px; top: 364px; left: 4px; align-items: center;">
+            <ui:Label text="Use grip to listen to the capsule memory" display-tooltip-when-elided="true" style="position: absolute; top: 180px; left: 457px; width: 464px; height: 67px; align-items: center; -unity-text-align: upper-center; -unity-font-definition: none; -unity-font: resource(&apos;Fonts &amp; Materials/RobotoMono-VariableFont_wght&apos;); font-size: 18%; color: rgb(255, 255, 255); -unity-text-outline-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="sound-indicator" style="background-image: url(&apos;project://database/Assets/ui/sound-indicator-icon.png?fileID=2800000&amp;guid=e66fe2d6a8c1c4c54b5572ceea6936e7&amp;type=3#sound-indicator-icon&apos;); width: 55px; height: 34px; position: absolute; top: 178px; left: 394px;" />
+            <ui:VisualElement name="grip-indicator" style="background-image: url(&apos;project://database/Assets/ui/trigger-indicator-icon.png?fileID=2800000&amp;guid=a01bd084ab586480da404027b3aa6fe2&amp;type=3#trigger-indicator-icon&apos;); width: 55px; height: 34px; position: absolute; top: 112px; left: 590px;" />
+            <ui:VisualElement name="capsule-icon" style="background-image: url(&apos;project://database/Assets/ui/capsule.png?fileID=2800000&amp;guid=6ba1e3b057eac49edbf111fe0af43873&amp;type=3#capsule&apos;); width: 55px; height: 52px; position: absolute; top: 98px; left: 674px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Slider picking-mode="Ignore" label="REC:" value="42" high-value="100" name="recTimer" style="position: absolute; height: 75px; top: 71px; left: 976px; width: 360px; -unity-font-definition: none; -unity-font: resource(&apos;Fonts &amp; Materials/RobotoMono-VariableFont_wght&apos;); font-size: 50%;" />
+</ui:UXML>

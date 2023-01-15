@@ -6,8 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Archive/HandGrabTEst.unity
-    guid: 59527676ef28f574ead4263faed737af
+    path: Assets/Scenes/PassthroughMemories_JAM.unity
+    guid: ef02176cc87a8aa429865e0e59e06e13
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b18bb580d394a434d844ebce8029ad4e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 555e5962b4747e94385e2e27fa20ca64, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7c9414ba1b32b6248bafedb98af321b7, type: 2}

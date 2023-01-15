@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="view_container" style="height: 772px;">
+        <ui:VisualElement name="welcome_header" style="position: absolute; width: 1526px; height: 154px; align-items: flex-start; justify-content: center; margin-right: 0; margin-left: 5%;">
+            <ui:Label text="       RECollections" display-tooltip-when-elided="true" name="title" style="font-size: 40%; -unity-text-align: upper-left; -unity-font: resource(&apos;Fonts &amp; Materials/RubikGlitch-Regular&apos;); -unity-font-definition: none; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);" />
+            <ui:Label text="A place for collective memories" display-tooltip-when-elided="true" name="tagline" style="-unity-font-definition: none; -unity-font: resource(&apos;Fonts &amp; Materials/RobotoMono-VariableFont_wght&apos;); font-size: 20%; position: relative; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);" />
+            <ui:VisualElement style="background-image: url(&apos;project://database/Assets/ui/Ellipse%201.png?fileID=2800000&amp;guid=5ff62fe50e2874f569ae2d103208e993&amp;type=3#Ellipse 1&apos;); width: 20px; height: 20px; position: absolute; top: 53px; left: 24px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="onboarding_container" style="height: 294px; position: absolute; width: 1376px; top: 364px; left: 4px; align-items: center;">
+            <ui:Label text="Colored capsules contain memories" display-tooltip-when-elided="true" style="position: absolute; top: 180px; left: 457px; width: 464px; height: 67px; align-items: center; -unity-text-align: upper-center; -unity-font-definition: none; -unity-font: resource(&apos;Fonts &amp; Materials/RobotoMono-VariableFont_wght&apos;); font-size: 22%; color: rgb(255, 255, 255); -unity-text-outline-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="capsule-icon" style="background-image: url(&apos;project://database/Assets/ui/capsule.png?fileID=2800000&amp;guid=6ba1e3b057eac49edbf111fe0af43873&amp;type=3#capsule&apos;); width: 101px; height: 88px; position: absolute; top: 45px; left: 638px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
